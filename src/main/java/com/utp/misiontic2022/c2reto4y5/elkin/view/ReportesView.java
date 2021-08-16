@@ -3,6 +3,7 @@ package com.utp.misiontic2022.c2reto4y5.elkin.view;
 import java.sql.SQLException;
 
 import com.utp.misiontic2022.c2reto4y5.elkin.controller.ReportesController;
+import com.utp.misiontic2022.c2reto4y5.elkin.model.vo.ComprasDeLiderVo;
 import com.utp.misiontic2022.c2reto4y5.elkin.model.vo.DeudasPorProyectoVo;
 import com.utp.misiontic2022.c2reto4y5.elkin.model.vo.ProyectoBancoVo;
 
@@ -63,13 +64,13 @@ public class ReportesView {
             e.printStackTrace();
         }
     }
-/*
+
     public void lideresQueMasGastan() {
         try{
         System.out.println(repitaCaracter('=', 6) + " 10 LIDERES MAS COMPRADORES " + repitaCaracter('=', 7));
         System.out.println(String.format("%-25s %15s", "LIDER", "VALOR  "));
-        System.out.println(repitaCaracter('-', 41));
-        // TODO Imprimir en pantalla la información de los líderes
+        System.out.println(repitaCaracter('-', 41)); // Imprimir en pantalla la información de los líderes
+
         var lista = controller.listarLideresQueMasGastan();
         for (ComprasDeLiderVo proyecto : lista) {
             System.out.printf("%-25s %,15.1f %n", proyecto.getLider(), proyecto.getValor());
@@ -79,5 +80,5 @@ public class ReportesView {
         e.printStackTrace();
     }
     }
-    */
+    
 }
