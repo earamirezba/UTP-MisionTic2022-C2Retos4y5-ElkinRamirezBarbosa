@@ -1,5 +1,6 @@
 package com.utp.misiontic2022.c2reto4y5.elkin;
 
+import com.utp.misiontic2022.c2reto4y5.elkin.view.ReportesGUI;
 import com.utp.misiontic2022.c2reto4y5.elkin.view.ReportesView;
 
 /**
@@ -24,9 +25,13 @@ public class App {
 
         // 3rd Test
         // El top 10 de los líderes que más gastan en sus proyectos, ósea, los que
-        // compran más materiales para cumplir con sus proyectos. (consulta 5 del Reto
-        // 3).
-        reportesView = new ReportesView();
-        reportesView.lideresQueMasGastan();
+        // compran más materiales para cumplir con sus proyectos. (consulta 5 del
+        // Reto3).
+        // reportesView = new ReportesView();
+        // reportesView.lideresQueMasGastan();
+
+        // Reto 5 GUI del reto 4
+        var frm = new ReportesGUI();
+        frm.setVisible(true);
     }
 }
