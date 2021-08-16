@@ -34,7 +34,7 @@ public class ReportesGUI extends JFrame{
     }
 
     private void initUI() {
-        setTitle("Reto 5 Misión TIC 2022 Ciclo 2 Grupo 18 Luis Arcila");
+        setTitle("UTP - Misión TIC 2022 - Reto 5 Ciclo 2 Grupo 18 ELKIN RAMIREZ BARBOSA");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 
         var panel = new JPanel();
