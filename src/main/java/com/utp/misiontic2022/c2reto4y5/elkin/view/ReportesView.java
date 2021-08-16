@@ -3,6 +3,7 @@ package com.utp.misiontic2022.c2reto4y5.elkin.view;
 import java.sql.SQLException;
 
 import com.utp.misiontic2022.c2reto4y5.elkin.controller.ReportesController;
+import com.utp.misiontic2022.c2reto4y5.elkin.model.vo.DeudasPorProyectoVo;
 import com.utp.misiontic2022.c2reto4y5.elkin.model.vo.ProyectoBancoVo;
 
 public class ReportesView {
@@ -43,14 +44,14 @@ public class ReportesView {
             e.printStackTrace();
         }
     }
-/*
+
     public void totalAdeudadoPorProyectosSuperioresALimite(Double limiteInferior) {
         try {
             System.out.println(repitaCaracter('=', 1) + " TOTAL DEUDAS POR PROYECTO " + repitaCaracter('=', 1));
             if (limiteInferior != null) {
                 System.out.println(String.format("%3s %15s", "ID", "VALOR "));
-                System.out.println(repitaCaracter('-', 29));
-                // TODO Imprimir en pantalla la información del total adeudado
+                System.out.println(repitaCaracter('-', 29)); // Imprimir en pantalla la información del total adeudado
+
 
                 var lista = controller.listarTotalAdeudadoPorProyectoSuperioresAlLimite(limiteInferior);
                 for (DeudasPorProyectoVo proyecto : lista) {
@@ -62,7 +63,7 @@ public class ReportesView {
             e.printStackTrace();
         }
     }
-
+/*
     public void lideresQueMasGastan() {
         try{
         System.out.println(repitaCaracter('=', 6) + " 10 LIDERES MAS COMPRADORES " + repitaCaracter('=', 7));
